@@ -20,6 +20,19 @@ Para informações sobre configuração, funcionalidades e estrutura, veja [`/vu
 
 ---
 
+## ⚙️ Variáveis de Ambiente
+Para que o backend e o frontend funcionem corretamente, é necessário configurar as variáveis de ambiente.
+
+O arquivo compactado Var.zip contém exemplos organizados de arquivos .env para ambas as aplicações:
+
+/backend/.env → Configurações do servidor Express, MySQL e Firebase Admin.
+
+/vue-todo-app/.env → Configurações da API e credenciais do Firebase Web.
+
+Importante: Certifique-se de ajustar os valores das variáveis conforme seu ambiente local, especialmente as chaves do Firebase e credenciais do banco de dados.
+
+---
+
 ## 📁 Estrutura do Repositório
 
 ```
@@ -28,6 +41,7 @@ av2framework/
 │   └── README.md
 ├── vue-todo-app/     # Frontend Vue 3
 │   └── README.md
+├── var.zip
 └── README.md         # Este arquivo
 ```
 

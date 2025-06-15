@@ -72,11 +72,11 @@ npm install
 ```
 
 ### 3. Configuração do Banco de Dados
-Execute o script SQL fornecido (`mysql_schema.sql`) para criar o banco e tabelas:
+Execute o script SQL fornecido (`ScriptBD.sql`) para criar o banco e tabelas:
 
 ```sql
 -- Executar no MySQL
-source mysql_schema.sql
+source ScriptBD.sql
 ```
 
 ### 4. Configuração do Firebase
